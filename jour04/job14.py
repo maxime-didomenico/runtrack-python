@@ -19,7 +19,7 @@ def select(num,list):
             while j < i:
                 print(list[j], end='')
                 j+=1
-            if i == 121:
+            if i == (max - 1):
                 print(list[i], end='')
                 i+=1
             else:
